@@ -39,39 +39,40 @@ enum Library: String, CaseIterable {
     var version: String {
         switch self {
         case .FFmpeg:
-            return "n7.0.1"
+            return "n8.0.1"
         case .openssl:
-            return "3.2.0"
+            return "3.3.5"
         case .gnutls:
-            return "3.8.3"
+            return "3.8.11"
         case .nettle:
-            return "3.8.3"
+            return "3.8.11"
         case .gmp:
-            return "3.8.3"
+            return "3.8.11"
         case .libass:
-            return "0.17.3"
+            return "0.17.4"
         case .libunibreak:
-            return "0.17.3"
+            return "0.17.4"
         case .libfreetype:
-            return "0.17.3"
+            return "0.17.4"
         case .libfribidi:
-            return "0.17.3"
+            return "0.17.4"
         case .libharfbuzz:
-            return "0.17.3"
+            return "0.17.4"
         case .libsmbclient:
-            return "4.15.13"
+            return "4.15.13-2512"
         case .libdav1d:    // AV1 decoding
-            return "1.4.3"
+            return "1.5.2-xcode"
         case .lcms2:
-            return "7.349.0"
+            return "2.17.0"
         case .libplacebo:
-            return "7.349.0"
+            return "7.351.0-2512"
         case .libdovi:
-            return "3.3.0"
+            return "3.3.2"
         case .vulkan:
-            return "1.2.9"
+            return "1.4.1"
         case .libshaderc:  // compiling GLSL (OpenGL Shading Language) shaders into SPIR-V (Standard Portable Intermediate Representation - Vulkan) code
-            return "2024.1.0"
+            return "2025.5.0"
+        }
         }
     }
 
