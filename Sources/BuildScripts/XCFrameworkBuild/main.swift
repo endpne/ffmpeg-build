@@ -73,7 +73,6 @@ enum Library: String, CaseIterable {
         case .libshaderc:  // compiling GLSL (OpenGL Shading Language) shaders into SPIR-V (Standard Portable Intermediate Representation - Vulkan) code
             return "2025.5.0"
         }
-        }
     }
 
     var url: String {
